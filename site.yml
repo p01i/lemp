@@ -1,0 +1,10 @@
+---
+- name: Install MySQL, Nginx, PHP-FPM
+  hosts: all
+  become: yes
+
+  roles:
+    - nginx
+    - php
+    - mysql
+#    - wordpress

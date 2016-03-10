@@ -1,0 +1,8 @@
+---
+nginx_vhosts:
+    - name: 'vhost1'
+      server_name: 'domain1.com'
+      server_port: 80
+    - name: 'vhost2'
+      server_name: 'domain2.com'
+      server_port: 80
